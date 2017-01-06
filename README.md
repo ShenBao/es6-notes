@@ -1,7 +1,7 @@
 
 # `ES6`学习示例
 
-> 配套内容讲义请前往：https://shenbao.github.io/blog/html/ES6/00%20%20A.快速搞定常用的ES6新特性.html
+> 文字说明：https://shenbao.github.io/blog/html/ES6/00%20%20A.快速搞定常用的ES6新特性.html
 
 ## 1.How To Use
 
