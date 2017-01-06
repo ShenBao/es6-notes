@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # `ES6`学习示例
 
 > 配套内容讲义请前往：https://shenbao.github.io/blog/html/ES6/00%20%20A.快速搞定常用的ES6新特性.html
@@ -69,3 +70,6 @@ generators
 The MIT License (MIT)
 
 Copyright (c) 2016 ShenBao
+=======
+# shenbao-es6-demo
+>>>>>>> 09d936c1e145bfc8c9e29f7bc1e10167754f6bfc
