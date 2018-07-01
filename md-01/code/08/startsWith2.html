@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script>
+    let str = 'git://www.baidu.com/2123123';
+
+    if (str.startsWith('http://')) {
+      alert('普通网址');
+    } else if (str.startsWith('https://')) {
+      alert('加密网址');
+    } else if (str.startsWith('git://')) {
+      alert('git地址');
+    } else if (str.startsWith('svn://')) {
+      alert('svn地址');
+    } else {
+      alert('其他');
+    }
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

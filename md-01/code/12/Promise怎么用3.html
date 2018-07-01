@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="jquery.js" charset="utf-8"></script>
+  <script>
+    function createPromise(url) {
+      return new Promise(function (resolve, reject) {
+        $.ajax({
+          url,
+          dataType: 'json',
+          success(arr) {
+            resolve(arr);
+          },
+          error(err) {
+            reject(err);
+          }
+        })
+      });
+    }
+
+    Promise.all([
+      createPromise('data/arr.txt'),
+      createPromise('data/json.txt')
+    ]).then(function (arr) {
+      let [res1, res2] = arr;
+
+      alert('全都成功了');
+      alert(res1);
+      alert(res2);
+    }, function () {
+      alert('至少有一个失败了');
+    });
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
