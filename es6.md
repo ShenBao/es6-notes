@@ -1,14 +1,14 @@
-# ES6    
+# ES6
 
-## let     
+## let
 
-![let](./img/let.jpg)    
+![let](./img/let.jpg)
 
 ## const
 
 ![const](./img/const.jpg)
 
-## 数值的扩展    
+## 数值的扩展
 
 ![数值的扩展](./img/number.jpg)
 
@@ -20,11 +20,11 @@
 
 ![解构](./img/jiegou.jpg)
 
-##函数扩展
+## 函数扩展
 
 ![function](./img/function.jpg)
 
-##对象的扩展
+## 对象的扩展
 
 ![object](./img/object.jpg)
 
