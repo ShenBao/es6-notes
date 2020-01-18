@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script>
+    let arr = [12, 69, 180, 8763];
+
+    let result = arr.reduce(function (tmp, item, index) {
+      if (index != arr.length - 1) { //不是最后一次
+        return tmp + item;
+      } else {                    //最后一次
+        return (tmp + item) / arr.length;
+      }
+    });
+
+    alert(result);
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

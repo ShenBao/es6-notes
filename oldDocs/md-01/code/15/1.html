@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="runner.js" charset="utf-8"></script>
+  <script src="jquery.js" charset="utf-8"></script>
+  <script>
+    runner(function* () {
+      let data1 = yield $.ajax({ url: 'data/1.txt', dataType: 'json' });
+      let data2 = yield $.ajax({ url: 'data/2.txt', dataType: 'json' });
+      let data3 = yield $.ajax({ url: 'data/3.txt', dataType: 'json' });
+
+      console.log(data1, data2, data3);
+    });
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

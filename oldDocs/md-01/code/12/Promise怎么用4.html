@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="jquery.js" charset="utf-8"></script>
+  <script>
+    Promise.all([
+      $.ajax({ url: 'data/arr.txt', dataType: 'json' }),
+      $.ajax({ url: 'data/json.txt', dataType: 'json' })
+    ]).then(function (results) {
+      let [arr, json] = results;
+
+      alert('成功了');
+      console.log(arr, json);
+    }, function () {
+      alert('失败了');
+    });
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

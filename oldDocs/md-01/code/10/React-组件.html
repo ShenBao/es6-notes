@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="react.js" charset="utf-8"></script>
+  <script src="react-dom.js" charset="utf-8"></script>
+  <script src="browser.js" charset="utf-8"></script>
+  <script type="text/babel">
+    class Test extends React.Component{
+      constructor(...args){
+        super(...args);
+      }
+
+      render(){
+        return <span>123</span>;
+      }
+    }
+
+    window.onload=function (){
+      let oDiv=document.getElementById('div1');
+
+      ReactDOM.render(
+        <Test></Test>,
+        oDiv
+      );
+    };
+    </script>
+</head>
+
+<body>
+  <div id="div1">
+
+  </div>
+</body>
+
+</html>
