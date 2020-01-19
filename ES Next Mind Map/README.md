@@ -1,0 +1,222 @@
+# ES Next Mind Map
+
+## 完整图谱
+
+[![ECMAScript_Next.png](./ECMAScript_Next.png)](./ECMAScript_Next.png)
+
+## ES6
+
+- 新的声明方式
+    - let
+    - const
+- 解构赋值
+    - 数组结构
+    - 对象结构
+    - 字符串结构
+- Array
+    - for ... of
+        - Array.prototype.entries()
+        - Array.prototype.keys()
+        - Array.prototype.values()
+    - Array.from()
+    - Array.of()
+    - Array.prototype.find()
+    - Array.prototype.findIndex()
+    - Array.prototype.copyWithin()
+    - Array.prototype.fill()
+    - Array.prototype.includes()
+- Function
+	- 参数的默认值
+	- 扩展运算符
+	- rest 参数
+	- length 属性
+	- name 属性
+	- 箭头函数
+- Object
+    - 属性简洁表示法
+    - 属性名表达式
+    - Object.is()
+    - Object.assign()
+    - 对象的遍历方式
+- Class
+    - class
+    - constructor
+    - extends
+    - static
+    - super
+    - get / set
+- Symbol
+    - Symbol()
+    - Symbol.for()
+    - Symbol.keyFor()
+- String
+    - Unicode 表示法
+    - 遍历器接口
+    - 模板字符串
+    - String.fromCharCode()
+    - String.prototype.includes()
+    - String.prototype.startsWith()
+    - String.prototype.endsWith()
+    - String.prototype.repeat()
+- Set
+    - 实例属性
+        - Set.prototype.constructor
+        - Set.prototype.size
+    - 实例方法
+        - Set.prototype.add(value)
+        - Set.prototype.delete(value)
+        - Set.prototype.has(value)
+        - Set.prototype.clear()
+    - 遍历方法
+        - Set.prototype.forEach()
+        - Set.prototype.keys()
+        - Set.prototype.values()
+        - Set.prototype.entries()
+    - WeakSet
+        - WeakSet.prototype.add(value)
+        - WeakSet.prototype.delete(value)
+        - WeakSet.prototype.has(value)
+        - 弱引用
+- Map
+    - 实例属性
+        - Map.prototype.size
+    - 实例方法
+        - Map.prototype.set(key, value)
+        - Map.prototype.get(key)
+        - Map.prototype.has(key)
+        - Map.prototype.delete(key)
+        - Map.prototype.clear()
+    - 遍历方法
+        - Map.prototype.forEach()
+        - Map.prototype.keys()
+        - Map.prototype.values()
+        - Map.prototype.entries()
+    - WeakMap
+        - WeakMap.prototype.set(key, value)
+        - WeakMap.prototype.get(key)
+        - WeakMap.prototype.has(key)
+        - WeakMap.prototype.delete(key)
+        - 弱引用
+- RegExp
+    - y 修饰 符
+    - u 修饰符
+- Number
+    - 二进制 0B
+    - 八进制 0O
+    - Number.isFinite()
+    - Number.isNaN()
+    - Number.parseInt()
+    - Number.parseFloat()
+    - Number.isInteger()：判断一个数值是否为整数
+    - Number.isSafeInteger()：判断一个整数是否在安全整数范围之内
+    - Number.MAX_SAFE_INTEGER、Number.MIN_SAFE_INTEGER
+- Math
+    - Math.trunc()：用于去除一个数的小数部分，返回整数部分
+    - Math.sign()：判断一个数到底是正数、负数、还是零
+        - 参数为正数，返回+1
+        - 参数为负数，返回-1
+        - 参数为 0，返回0
+        - 参数为-0，返回-0
+        - 其他值，返回NaN
+    - Math.cbrt()：用于计算一个数的立方根
+- Proxy
+    - get()
+    - set()
+    - apply()
+    - has()
+    - construct()
+    - deleteProperty()
+    - defineProperty()
+    - getOwnPropertyDescriptor()
+    - getPrototypeOf()
+    - isExtensible()
+    - ownKeys()
+    - preventExtensions()
+    - setPrototypeOf()
+    - Proxy.revocable()
+- Reflect
+    - Reflect.apply(target, thisArg, args)
+    - Reflect.construct(target, args)
+    - Reflect.get(target, name, receiver)
+    - Reflect.set(target, name, value, receiver)
+    - Reflect.defineProperty(target, name, desc)
+    - Reflect.deleteProperty(target, name)
+    - Reflect.has(target, name)
+    - Reflect.ownKeys(target)
+    - Reflect.isExtensible(target)
+    - Reflect.preventExtensions(target)
+    - Reflect.getOwnPropertyDescriptor(target, name)
+    - Reflect.getPrototypeOf(target)
+    - Reflect.setPrototypeOf(target, prototype)
+- Promise
+    - Promise.prototype.then()
+    - Promise.prototype.catch()
+    - Promise.prototype.finally()
+    - Promise.all()
+    - Promise.race()
+    - Promise.any()
+    - Promise.resolve()
+    - Promise.reject()
+- Generator
+    - *
+    - yield
+    - next()
+- Iterator
+    - 可迭代协议：Symbol.iterator
+    - 迭代器协议
+    - for ... of
+    - generator
+- Module
+    - export
+    - export default
+    - import
+    - as
+    - export 与 import 的复合写法
+
+## ES7
+
+- Array.prototype.includes()
+- 幂运算符
+
+## ES8
+
+- Async Await
+- 对象扩展：Object.values()，Object.entries()
+- 对象属性描述：Object.getOwnPropertyDescriptors()
+- 字符串扩展：String.prototype.padStart()，String.prototype.padEnd()
+- 尾逗号 Trailing commas
+
+## ES9
+
+- Symbol.asyncIterator
+- 异步迭代：for await of
+- 正则表达式扩展：dotAll，具名组匹配，后行断言
+- 对象扩展：Rest & Spread
+- Promise 扩展：Promise.prototype.finally()
+- 字符串扩展：放松模板字符串文字限制
+
+## ES10
+
+- 对象扩展：Object.fromEntries()
+- 字符串扩展：String.prototype.trimStart() ，String.prototype.trimEnd()
+- 数组扩展：Array.prototype.flat()，Array.prototype.flatMap()
+- 修订 Function.prototype.toString()
+- 可选的 Catch Binding
+- JSON 扩展：JSON superset，JSON.stringify()增强能力
+- Symbol 扩展：Symbol.prototype.description
+
+## ES11
+
+- 字符串扩展全局模式捕获：String.prototype.matchAll()
+- 动态导入：Dynamic import()
+- 新的原始数据类型：BigInt
+- Promise 扩展：Promise.allSettled()
+- 全局对象：globalThis
+- 可选链：Optional chaining
+- 空值合并运算符：Nullish coalescing Operator
+
+## More links
+
+- [GitHub Home](https://github.com/ShenBao)
+- [Blog Home](https://shenbao.github.io)
+- [About Me](https://shenbao.github.io/about/)
