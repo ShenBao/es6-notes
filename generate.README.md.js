@@ -6,7 +6,7 @@ basePath = '';
 var desc = `
 ES Next 学习笔记
 
-- [ES Next Finished Proposals](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
+[tc39 Finished Proposals](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
 `;
 
 var endDesc = `
