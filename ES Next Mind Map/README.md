@@ -1,6 +1,6 @@
 # ES Next Mind Map
 
-[![es6-notes.png](./es6-notes.png)](..img//es6-notes.png)
+[![ES Next Mind Map](../img/es6-notes.png)](https://raw.githubusercontent.com/ShenBao/es6-notes/master/img/es6-notes.png)
 
 ## More links
 
