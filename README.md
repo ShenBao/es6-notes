@@ -6,6 +6,7 @@ ES Next 学习笔记
 
 ## [ES Next Mind Map](%2FES%20Next%20Mind%20Map%2FREADME.md)
 
+1. [ES Next Mind Map](%2FES%20Next%20Mind%20Map%2FES%20Next%20Mind%20Map.md)
 
 ## [ES Next 简述](%2FES%20Next%20%E7%AE%80%E8%BF%B0%2FREADME.md)
 

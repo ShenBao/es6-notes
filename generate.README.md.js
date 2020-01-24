@@ -31,7 +31,8 @@ function readFileList(dir, filesList = []) {
         nextPath.includes('oldDocs') ||
         nextPath.includes('code') ||
         nextPath.includes('img') ||
-        nextPath.includes('.git')
+        nextPath.includes('.git') ||
+        nextPath.includes('node_modules')
       ) {
       } else {
         filesList.push(
@@ -73,7 +74,9 @@ function readFileList(dir, filesList = []) {
 var filesList = [];
 readFileList(__dirname, filesList);
 
+console.log(`----------------JSON.stringify(filesList, null, 4)`);
 console.log(JSON.stringify(filesList, null, 4));
+console.log(`----- end -----------JSON.stringify(filesList, null, 4)`);
 
 var str = '';
 filesList.forEach((item, index) => {
@@ -94,9 +97,17 @@ filesList.forEach((item, index) => {
       str += `#### ${name}\n\n`;
     }
   } else {
-    str += `1. [${(new String(name)).replace(new RegExp(',',"gm"), '.')}](${basePath}${enPath})\n`;
+    str += `1. [${new String(name).replace(
+      new RegExp(',', 'gm'),
+      '.'
+    )}](${basePath}${enPath})\n`;
   }
-  console.log(`[${(new String(name)).replace(new RegExp(',',"gm"), '.')}](${basePath}${path})`);
+  console.log(
+    `[${new String(name).replace(
+      new RegExp(',', 'gm'),
+      '.'
+    )}](${basePath}${path})`
+  );
 });
 
 if (!basePath.startsWith('http')) {
