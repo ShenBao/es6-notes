@@ -79,6 +79,10 @@ ES Next 学习笔记
 ## [ES2021 (ES12)](%2FES2021%20(ES12)%2FREADME.md)
 
 1. [String.prototype.replaceAll()](%2FES2021%20(ES12)%2F01.%20String.prototype.replaceAll().md)
+1. [Promise.any()](%2FES2021%20(ES12)%2F02.%20Promise.any().md)
+1. [WeakRefs](%2FES2021%20(ES12)%2F03.%20WeakRefs.md)
+1. [Logical Assignment Operators](%2FES2021%20(ES12)%2F04.%20Logical%20Assignment%20Operators.md)
+1. [Numeric separators](%2FES2021%20(ES12)%2F05.%20Numeric%20separators.md)
 
 ## More links
 
