@@ -72,6 +72,7 @@ ES Next 学习笔记
 1. [String.prototype.matchAll()](%2FES2020%20(ES11)%2F02.%20String.prototype.matchAll().md)
 1. [Promise.allSettled()](%2FES2020%20(ES11)%2F03.%20Promise.allSettled().md)
 1. [Dynamic Import()](%2FES2020%20(ES11)%2F04.%20Dynamic%20Import().md)
+1. [ES Module 增强](%2FES2020%20(ES11)%2F04.%20ES%20Module%20%E5%A2%9E%E5%BC%BA.md)
 1. [globalThis](%2FES2020%20(ES11)%2F05.%20globalThis.md)
 1. [Optional chaining](%2FES2020%20(ES11)%2F06.%20Optional%20chaining.md)
 1. [Nullish coalescing Operator](%2FES2020%20(ES11)%2F07.%20Nullish%20coalescing%20Operator.md)
@@ -80,7 +81,7 @@ ES Next 学习笔记
 
 1. [String.prototype.replaceAll()](%2FES2021%20(ES12)%2F01.%20String.prototype.replaceAll().md)
 1. [Promise.any()](%2FES2021%20(ES12)%2F02.%20Promise.any().md)
-1. [WeakRefs](%2FES2021%20(ES12)%2F03.%20WeakRefs.md)
+1. [WeakRefs & Finalizers](%2FES2021%20(ES12)%2F03.%20WeakRefs%20%26%20Finalizers.md)
 1. [Logical Assignment Operators](%2FES2021%20(ES12)%2F04.%20Logical%20Assignment%20Operators.md)
 1. [Numeric separators](%2FES2021%20(ES12)%2F05.%20Numeric%20separators.md)
 
