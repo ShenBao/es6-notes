@@ -91,7 +91,6 @@ ES Next 学习笔记
 1. [RegExp Match Indices](%2FES2022%20(ES13)%2F02.%20RegExp%20Match%20Indices.md)
 1. [Top-level await](%2FES2022%20(ES13)%2F03.%20Top-level%20await.md)
 1. [Ergonomic brand checks for Private Fields](%2FES2022%20(ES13)%2F04.%20Ergonomic%20brand%20checks%20for%20Private%20Fields.md)
-1. [ESLink](%2FESLink.md)
 
 ## More links
 
