@@ -4,9 +4,9 @@
   "description": "ES Next 学习笔记",
   "main": "generate.README.md.js",
   "scripts": {
-    "build": "node generate.README.md.js",
-    "server": "anywhere -p 80 -d ../",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "node ./scripts/generate.index.html.js",
+    "build": "node ./scripts/generate.README.md.js",
+    "server": "anywhere -p 80 -d ../"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/ShenBao/es6-notes#readme",
   "devDependencies": {
     "anywhere": "^1.5.0",
-    "axios": "^0.19.2",
-    "glob": "^7.1.6"
+    "axios": "^0.24.0",
+    "glob": "^7.2.0"
   }
 }

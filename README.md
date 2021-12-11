@@ -13,6 +13,8 @@ ES Next 学习笔记
 1. [ES Next 简述](%2FES%20Next%20%E7%AE%80%E8%BF%B0%2F01.%20ES%20Next%20%E7%AE%80%E8%BF%B0.md)
 1. [环境准备](%2FES%20Next%20%E7%AE%80%E8%BF%B0%2F02.%20%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87.md)
 1. [开发环境](%2FES%20Next%20%E7%AE%80%E8%BF%B0%2F03.%20%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md)
+1. [ES Next List](%2FES%20Next%20%E7%AE%80%E8%BF%B0%2F05.%20ES%20Next%20List.md)
+1. [扩展：现代前端环境](%2FES%20Next%20%E7%AE%80%E8%BF%B0%2F06.%20%E6%89%A9%E5%B1%95%EF%BC%9A%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E7%8E%AF%E5%A2%83.md)
 
 ## [ES2015 (ES6)](%2FES2015%20(ES6)%2FREADME.md)
 
@@ -91,6 +93,15 @@ ES Next 学习笔记
 1. [RegExp Match Indices](%2FES2022%20(ES13)%2F02.%20RegExp%20Match%20Indices.md)
 1. [Top-level await](%2FES2022%20(ES13)%2F03.%20Top-level%20await.md)
 1. [Ergonomic brand checks for Private Fields](%2FES2022%20(ES13)%2F04.%20Ergonomic%20brand%20checks%20for%20Private%20Fields.md)
+
+## [Intl API](%2FIntl%20API%2FREADME.md)
+
+1. [Intl API](%2FIntl%20API%2F01.%20Intl%20API.md)
+1. [Intl.DateTimeFormat](%2FIntl%20API%2F02.%20Intl.DateTimeFormat.md)
+1. [Intl.NumberFormat](%2FIntl%20API%2F03.%20Intl.NumberFormat.md)
+1. [Intl.Collator](%2FIntl%20API%2F04.%20Intl.Collator.md)
+1. [Intl.ListFormat](%2FIntl%20API%2F05.%20Intl.ListFormat.md)
+1. [Intl.RelativeTimeFormat](%2FIntl%20API%2F06.%20Intl.RelativeTimeFormat.md)
 
 ## More links
 

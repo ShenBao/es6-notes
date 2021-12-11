@@ -28,7 +28,7 @@ const findIsIgnoreFile = (match) => {
 };
 
 const buildPageList = () => {
-  const mdFiles = glob.sync(path.join(__dirname, './**/*.md'));
+  const mdFiles = glob.sync(path.join(process.cwd(), './**/*.md'));
   const pageList = [];
   const pageMap = {};
   Object.keys(mdFiles).map((index) => {
