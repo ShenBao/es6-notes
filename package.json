@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/ShenBao/es6-notes.git"
   },
-  "keywords": [],
+  "keywords": ["ES6", "ES Next"],
   "author": "ShenBao(shenbaoone@gmail.com)",
   "license": "ISC",
   "bugs": {
