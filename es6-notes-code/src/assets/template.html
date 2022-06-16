@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h4><%= htmlWebpackPlugin.options.title %></h4>
+    <div id="root"></div>
+    <script>
+        console.log('%c==== page: %c <%= htmlWebpackPlugin.options.title %>','color:#f00;','color:blue;background:yellow;')
+    </script>
+</body>
+</html>
