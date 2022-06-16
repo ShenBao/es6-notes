@@ -1,7 +1,7 @@
 # es6-code
 
 ```bash
-cd ./es6-notes-code
+cd ./code
 
 npm i
 
