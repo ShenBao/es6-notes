@@ -8,7 +8,6 @@ import ReactDOM from 'react-dom';
 console.log('ECMAScript Next 学习笔记');
 console.log('author: ShenBao');
 console.log('es6-notes: https://github.com/ShenBao/es6-notes');
-console.log('es6-code: https://github.com/ShenBao/es6-code');
 
 const App = () => {
   let list = window.esPageList || [];

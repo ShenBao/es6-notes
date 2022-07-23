@@ -2,7 +2,8 @@
 
 ES Next 学习笔记
 
-[tc39 Finished Proposals](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
+- [tc39 Finished Proposals with ECMA262](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
+- [tc39 Finished Proposals with ECMA402](https://github.com/tc39/proposals/blob/main/ecma402/finished-proposals.md)
 
 ## [ES Next Mind Map](%2FES%20Next%20Mind%20Map%2FREADME.md)
 
@@ -101,6 +102,7 @@ ES Next 学习笔记
 ## [ES2023 (ES14)](%2FES2023%20(ES14)%2FREADME.md)
 
 1. [Array.prototype.{findLast.findLastIndex}](%2FES2023%20(ES14)%2F01.%20Array.prototype.%7BfindLast%2CfindLastIndex%7D.md)
+1. [Hashbang Grammar](%2FES2023%20(ES14)%2F02.%20Hashbang%20Grammar.md)
 
 ## [Intl API](%2FIntl%20API%2FREADME.md)
 
