@@ -103,6 +103,13 @@ ES Next 学习笔记
 
 1. [Array.prototype.{findLast.findLastIndex}](%2FES2023%20(ES14)%2F01.%20Array.prototype.%7BfindLast%2CfindLastIndex%7D.md)
 1. [Hashbang Grammar](%2FES2023%20(ES14)%2F02.%20Hashbang%20Grammar.md)
+1. [Symbols as WeakMap keys](%2FES2023%20(ES14)%2F03.%20Symbols%20as%20WeakMap%20keys.md)
+1. [Change Array by Copy](%2FES2023%20(ES14)%2F04.%20Change%20Array%20by%20Copy.md)
+
+## [ES2024（ES15）](%2FES2024%EF%BC%88ES15%EF%BC%89%2FREADME.md)
+
+1. [Well-Formed Unicode Strings](%2FES2024%EF%BC%88ES15%EF%BC%89%2F01.%20Well-Formed%20Unicode%20Strings.md)
+1. [Atomics.waitAsync](%2FES2024%EF%BC%88ES15%EF%BC%89%2F02.%20Atomics.waitAsync.md)
 
 ## [Intl API](%2FIntl%20API%2FREADME.md)
 
