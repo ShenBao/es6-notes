@@ -120,6 +120,10 @@ ES Next 学习笔记
 
 1. [Duplicate named capture groups](%2FES2025%20(ES16)%2F01.%20Duplicate%20named%20capture%20groups.md)
 1. [Set Methods](%2FES2025%20(ES16)%2F02.%20Set%20Methods.md)
+1. [RegExp Modifiers](%2FES2025%20(ES16)%2F03.%20RegExp%20Modifiers.md)
+1. [Import Attributes & JSON Modules](%2FES2025%20(ES16)%2F04.%20Import%20Attributes%20%26%20JSON%20Modules.md)
+1. [Sync Iterator helpers](%2FES2025%20(ES16)%2F05.%20Sync%20Iterator%20helpers.md)
+1. [Promise.try](%2FES2025%20(ES16)%2F06.%20Promise.try.md)
 
 ## [Intl API](%2FIntl%20API%2FREADME.md)
 
