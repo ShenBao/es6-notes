@@ -124,6 +124,14 @@ ES Next 学习笔记
 1. [Import Attributes & JSON Modules](%2FES2025%20(ES16)%2F04.%20Import%20Attributes%20%26%20JSON%20Modules.md)
 1. [Sync Iterator helpers](%2FES2025%20(ES16)%2F05.%20Sync%20Iterator%20helpers.md)
 1. [Promise.try](%2FES2025%20(ES16)%2F06.%20Promise.try.md)
+1. [Float16 on TypedArrays. DataView. Math.f16round](%2FES2025%20(ES16)%2F07.%20Float16%20on%20TypedArrays%2C%20DataView%2C%20Math.f16round.md)
+1. [RegExp.escape](%2FES2025%20(ES16)%2F08.%20RegExp.escape.md)
+
+## [ES2026 (ES17)](%2FES2026%20(ES17)%2FREADME.md)
+
+1. [Error.isError](%2FES2026%20(ES17)%2F01.%20Error.isError.md)
+1. [Math.sumPrecise](%2FES2026%20(ES17)%2F02.%20Math.sumPrecise.md)
+1. [Uint8Array to、from Base64](%2FES2026%20(ES17)%2F03.%20Uint8Array%20to%E3%80%81from%20Base64.md)
 
 ## [Intl API](%2FIntl%20API%2FREADME.md)
 
@@ -140,6 +148,11 @@ ES Next 学习笔记
 1. [正则表达式中的?:、?=和?!有什么区别](%2Fmd%2F02.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%AD%E7%9A%84%3F%3A%E3%80%81%3F%3D%E5%92%8C%3F!%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB.md)
 1. [JS 数组方法汇总](%2Fmd%2F03.%20JS%20%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB.md)
 1. [JS 字符串方法汇总](%2Fmd%2F04.%20JS%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB.md)
+1. [JS 中判断某个字符串是否包含另一个字符串的6种方法](%2Fmd%2F05.%20JS%20%E4%B8%AD%E5%88%A4%E6%96%AD%E6%9F%90%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%98%AF%E5%90%A6%E5%8C%85%E5%90%AB%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%846%E7%A7%8D%E6%96%B9%E6%B3%95.md)
+
+## [md Articles](%2Fmd%20Articles%2FREADME.md)
+
+1. [使用装饰器增强代码](%2Fmd%20Articles%2F%E4%BD%BF%E7%94%A8%E8%A3%85%E9%A5%B0%E5%99%A8%E5%A2%9E%E5%BC%BA%E4%BB%A3%E7%A0%81.md)
 
 ## More links
 
