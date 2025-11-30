@@ -132,6 +132,7 @@ ES Next 学习笔记
 1. [Error.isError](%2FES2026%20(ES17)%2F01.%20Error.isError.md)
 1. [Math.sumPrecise](%2FES2026%20(ES17)%2F02.%20Math.sumPrecise.md)
 1. [Uint8Array to、from Base64](%2FES2026%20(ES17)%2F03.%20Uint8Array%20to%E3%80%81from%20Base64.md)
+1. [Iterator Sequencing](%2FES2026%20(ES17)%2F04.%20Iterator%20Sequencing.md)
 
 ## [Intl API](%2FIntl%20API%2FREADME.md)
 
